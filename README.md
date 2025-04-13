@@ -1,4 +1,4 @@
-Absolutely! Here's a clean, well-formatted `README.md` for your GitHub repository **[TestingWithPyTest](https://github.com/suba-learning/TestingWithPyTest)**:
+**[TestingWithPyTest](https://github.com/suba-learning/TestingWithPyTest)**:
 
 ---
 
@@ -99,7 +99,3 @@ Have a suggestion or want to add a new example? Feel free to fork this repo and 
 This project is open source and available under the [MIT License](LICENSE).
 
 ```
-
----
-
-Let me know if you want to add badges (e.g., for build status, license) or make this a learning series repo with links to blog posts or videos!
