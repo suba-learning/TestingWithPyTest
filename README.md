@@ -1,65 +1,81 @@
-# 🧪 TestingWithPyTest
-This repository contains a collection of examples demonstrating how to use [Pytest](https://docs.pytest.org/en/stable/) for testing Python codeIt's designed to help you understand the basics of writing and running tests using Pytest
+TestingWithPyTest
+This repository contains a collection of examples demonstrating how to use Pytest for testing Python code. It's designed to help you understand the basics of writing and running tests using Pytest.​
 
-## 📁 Repository Structure
-The repository includes several test files, each illustrating different aspects of Pytes:
+📁 Repository Structure
+The repository includes several test files, each illustrating different aspects of Pytest:​
+GitHub
++1
+GitHub
++1
 
- `test_one.p`
- `test_two.p`
- `three_test.p`
- `test_four.p`
- `test_five.p`
-These files cover various testing scenarios and can serve as a reference for writing your own test.
+test_one.py​
+GitHub
++1
+GitHub
++1
 
-## 🛠 Installatio
+test_two.py​
+GitHub
++4
+GitHub
++4
+GitHub
++4
 
-To get started, clone the repository and install the required dependencis:
+three_test.py​
 
-```bah
-git clone https://github.com/suba-learning/TestingWithPyTest.git
+test_four.py​
+
+test_five.py​
+
+These files cover various testing scenarios and can serve as a reference for writing your own tests.​
+GitHub
+
+🛠 Installation
+To get started, clone the repository and install the required dependencies:​
+
+bash
+Copy
+Edit
+git clone https://github.com/suba-learning/TestingWithPyTest.git
 cd TestingWithPyTest
-pip install -r requirements.xt
-```
+pip install -r requirements.txt
+The requirements.txt file includes all necessary packages to run the tests.​
 
+🚀 Running Tests
+You can run all tests in the repository using the following command:​
 
-The `requirements.txt` file includes all necessary packages to run the tess.
+bash
+Copy
+Edit
+pytest
+Pytest will automatically discover and execute all test functions in files matching the pattern test_*.py or *_test.py.​
+GitHub
 
-## 🚀 Running Tess
+To run a specific test file:​
 
-You can run all tests in the repository using the following commnd:
+bash
+Copy
+Edit
+pytest test_one.py
+To run a specific test function within a file:​
 
-```bsh
-pyest
-```
+bash
+Copy
+Edit
+pytest test_one.py::test_function_name
+📚 Learning Resources
+For more information on Pytest and writing effective tests, consider exploring the following resources:​
 
-Pytest will automatically discover and execute all test functions in files matching the pattern `test_*.py` or `*_test.y`.
+Pytest Documentation
 
-To run a specific test fle:
+Pytest Tutorial
 
-```bsh
-pytest test_on.py
-```
+Effective Python Testing With Pytest
 
-To run a specific test function within a fle:
+🤝 Contributing
+Contributions are welcome! If you have examples or improvements to share, feel free to fork the repository and submit a pull request.​
 
-```bsh
-pytest test_one.py::test_function_ame
-```
-
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.​
 
-## 📚 Learning Resoures
-
-For more information on Pytest and writing effective tests, consider exploring the following resouces:
-
-- [Pytest Documentation](https://docs.pytest.org/en/stable/)
-- [Pytest Tutorial](https://realpython.com/pytest-python-testing/)
-- [Effective Python Testing With Pytest](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest)
-
-## 🤝 Contribuing
-
-Contributions are welcome! If you have examples or improvements to share, feel free to fork the repository and submit a pull reuest.
-
-## 📄 Liense
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for dtails.
----
