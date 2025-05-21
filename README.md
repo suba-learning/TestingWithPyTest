@@ -2,7 +2,6 @@
 
 ---
 
-```markdown
 # 🧪 TestingWithPyTest
 
 This repository demonstrates how to write and run unit tests using [Pytest](https://docs.pytest.org/en/stable/) — a powerful Python testing framework. It’s ideal for beginners learning how to structure and execute tests in Python.
